@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3731D6CB1A955CAA00CC6A96 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3731D6CA1A955CAA00CC6A96 /* FacebookSDK.framework */; };
+		3731D6CF1A955FFD00CC6A96 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3731D6CE1A955FFD00CC6A96 /* LoginViewController.m */; };
+		3731D6D21A956D2D00CC6A96 /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3731D6D11A956D2D00CC6A96 /* sample.jpg */; };
 		37E8631A1A93025F00E899B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E863191A93025F00E899B7 /* main.m */; };
 		37E8631D1A93025F00E899B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E8631C1A93025F00E899B7 /* AppDelegate.m */; };
 		37E863201A93025F00E899B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E8631F1A93025F00E899B7 /* ViewController.m */; };
@@ -27,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3731D6CA1A955CAA00CC6A96 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		3731D6CD1A955FFD00CC6A96 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		3731D6CE1A955FFD00CC6A96 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		3731D6D11A956D2D00CC6A96 /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample.jpg; sourceTree = "<group>"; };
 		37E863141A93025F00E899B7 /* TakeOrToss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeOrToss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37E863181A93025F00E899B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37E863191A93025F00E899B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3731D6CB1A955CAA00CC6A96 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +68,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3731D6CC1A955CB600CC6A96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3731D6CA1A955CAA00CC6A96 /* FacebookSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3731D6D01A956CF300CC6A96 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3731D6D11A956D2D00CC6A96 /* sample.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		37E8630B1A93025F00E899B7 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +105,8 @@
 		37E863161A93025F00E899B7 /* TakeOrToss */ = {
 			isa = PBXGroup;
 			children = (
+				3731D6D01A956CF300CC6A96 /* Resources */,
+				3731D6CC1A955CB600CC6A96 /* Frameworks */,
 				37E8631B1A93025F00E899B7 /* AppDelegate.h */,
 				37E8631C1A93025F00E899B7 /* AppDelegate.m */,
 				37E8631E1A93025F00E899B7 /* ViewController.h */,
@@ -89,6 +115,8 @@
 				37E863241A93025F00E899B7 /* Images.xcassets */,
 				37E863261A93025F00E899B7 /* LaunchScreen.xib */,
 				37E863171A93025F00E899B7 /* Supporting Files */,
+				3731D6CD1A955FFD00CC6A96 /* LoginViewController.h */,
+				3731D6CE1A955FFD00CC6A96 /* LoginViewController.m */,
 			);
 			path = TakeOrToss;
 			sourceTree = "<group>";
@@ -168,9 +196,11 @@
 				TargetAttributes = {
 					37E863131A93025F00E899B7 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = ZP487E5992;
 					};
 					37E8632C1A93025F00E899B7 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = ZP487E5992;
 						TestTargetID = 37E863131A93025F00E899B7;
 					};
 				};
@@ -202,6 +232,7 @@
 				37E863231A93025F00E899B7 /* Main.storyboard in Resources */,
 				37E863281A93025F00E899B7 /* LaunchScreen.xib in Resources */,
 				37E863251A93025F00E899B7 /* Images.xcassets in Resources */,
+				3731D6D21A956D2D00CC6A96 /* sample.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3731D6CF1A955FFD00CC6A96 /* LoginViewController.m in Sources */,
 				37E863201A93025F00E899B7 /* ViewController.m in Sources */,
 				37E8631D1A93025F00E899B7 /* AppDelegate.m in Sources */,
 				37E8631A1A93025F00E899B7 /* main.m in Sources */,
@@ -343,6 +375,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TakeOrToss",
+				);
 				INFOPLIST_FILE = TakeOrToss/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +389,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TakeOrToss",
+				);
 				INFOPLIST_FILE = TakeOrToss/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -363,6 +403,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -374,6 +416,7 @@
 				INFOPLIST_FILE = TakeOrTossTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TakeOrToss.app/TakeOrToss";
 			};
 			name = Debug;
@@ -382,6 +425,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -389,6 +434,7 @@
 				INFOPLIST_FILE = TakeOrTossTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TakeOrToss.app/TakeOrToss";
 			};
 			name = Release;
@@ -412,6 +458,7 @@
 				37E863391A93025F00E899B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37E8633A1A93025F00E899B7 /* Build configuration list for PBXNativeTarget "TakeOrTossTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +467,7 @@
 				37E8633C1A93025F00E899B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
