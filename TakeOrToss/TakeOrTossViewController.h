@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface TakeOrTossViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIImageView *takeOrTossImage;
 
 @end

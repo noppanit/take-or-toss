@@ -1,25 +1,22 @@
 //
-//  TakeOrTossViewController.m
+//  FriendViewController.m
 //  TakeOrToss
 //
-//  Created by Noppanit Charassinvichai on 2/19/15.
+//  Created by Noppanit Charassinvichai on 2/20/15.
 //  Copyright (c) 2015 Noppanit Charassinvichai. All rights reserved.
 //
 
-#import "TakeOrTossViewController.h"
+#import "FriendViewController.h"
 
-@interface TakeOrTossViewController ()
+@interface FriendViewController ()
 
 @end
 
-@implementation TakeOrTossViewController
+@implementation FriendViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    UIImage *image = [UIImage imageNamed: @"sample.jpg"];
-    [self.takeOrTossImage setImage:image];
-    
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
@@ -35,7 +32,10 @@
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
 }
- 
 */
 
+- (IBAction)doneButton:(id)sender {
+//    NSLog(@"ToHome");
+    [self performSegueWithIdentifier:@"segueToHome" sender:self];
+}
 @end

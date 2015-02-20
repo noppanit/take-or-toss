@@ -12,9 +12,11 @@
 		3731D6D21A956D2D00CC6A96 /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3731D6D11A956D2D00CC6A96 /* sample.jpg */; };
 		3731D6D51A96979200CC6A96 /* TakeOrTossViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3731D6D41A96979200CC6A96 /* TakeOrTossViewController.m */; };
 		3731D6D81A96FFB800CC6A96 /* MyCustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3731D6D71A96FFB800CC6A96 /* MyCustomSegue.m */; };
+		3731D6DB1A97E09100CC6A96 /* FriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3731D6DA1A97E09100CC6A96 /* FriendViewController.m */; };
+		3731D6DE1A97E19800CC6A96 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3731D6DD1A97E19800CC6A96 /* HomeViewController.m */; };
 		37E8631A1A93025F00E899B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E863191A93025F00E899B7 /* main.m */; };
 		37E8631D1A93025F00E899B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E8631C1A93025F00E899B7 /* AppDelegate.m */; };
-		37E863201A93025F00E899B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E8631F1A93025F00E899B7 /* ViewController.m */; };
+		37E863201A93025F00E899B7 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E8631F1A93025F00E899B7 /* CameraViewController.m */; };
 		37E863231A93025F00E899B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E863211A93025F00E899B7 /* Main.storyboard */; };
 		37E863251A93025F00E899B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E863241A93025F00E899B7 /* Images.xcassets */; };
 		37E863281A93025F00E899B7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37E863261A93025F00E899B7 /* LaunchScreen.xib */; };
@@ -40,13 +42,17 @@
 		3731D6D41A96979200CC6A96 /* TakeOrTossViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakeOrTossViewController.m; sourceTree = "<group>"; };
 		3731D6D61A96FFB800CC6A96 /* MyCustomSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomSegue.h; sourceTree = "<group>"; };
 		3731D6D71A96FFB800CC6A96 /* MyCustomSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomSegue.m; sourceTree = "<group>"; };
+		3731D6D91A97E09100CC6A96 /* FriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendViewController.h; sourceTree = "<group>"; };
+		3731D6DA1A97E09100CC6A96 /* FriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendViewController.m; sourceTree = "<group>"; };
+		3731D6DC1A97E19800CC6A96 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		3731D6DD1A97E19800CC6A96 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		37E863141A93025F00E899B7 /* TakeOrToss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeOrToss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37E863181A93025F00E899B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37E863191A93025F00E899B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		37E8631B1A93025F00E899B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		37E8631C1A93025F00E899B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		37E8631E1A93025F00E899B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		37E8631F1A93025F00E899B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		37E8631E1A93025F00E899B7 /* CameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		37E8631F1A93025F00E899B7 /* CameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
 		37E863221A93025F00E899B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37E863241A93025F00E899B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		37E863271A93025F00E899B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -115,8 +121,8 @@
 				3731D6CC1A955CB600CC6A96 /* Frameworks */,
 				37E8631B1A93025F00E899B7 /* AppDelegate.h */,
 				37E8631C1A93025F00E899B7 /* AppDelegate.m */,
-				37E8631E1A93025F00E899B7 /* ViewController.h */,
-				37E8631F1A93025F00E899B7 /* ViewController.m */,
+				37E8631E1A93025F00E899B7 /* CameraViewController.h */,
+				37E8631F1A93025F00E899B7 /* CameraViewController.m */,
 				37E863211A93025F00E899B7 /* Main.storyboard */,
 				37E863241A93025F00E899B7 /* Images.xcassets */,
 				37E863261A93025F00E899B7 /* LaunchScreen.xib */,
@@ -127,6 +133,10 @@
 				3731D6D41A96979200CC6A96 /* TakeOrTossViewController.m */,
 				3731D6D61A96FFB800CC6A96 /* MyCustomSegue.h */,
 				3731D6D71A96FFB800CC6A96 /* MyCustomSegue.m */,
+				3731D6D91A97E09100CC6A96 /* FriendViewController.h */,
+				3731D6DA1A97E09100CC6A96 /* FriendViewController.m */,
+				3731D6DC1A97E19800CC6A96 /* HomeViewController.h */,
+				3731D6DD1A97E19800CC6A96 /* HomeViewController.m */,
 			);
 			path = TakeOrToss;
 			sourceTree = "<group>";
@@ -262,10 +272,12 @@
 			files = (
 				3731D6D81A96FFB800CC6A96 /* MyCustomSegue.m in Sources */,
 				3731D6CF1A955FFD00CC6A96 /* LoginViewController.m in Sources */,
-				37E863201A93025F00E899B7 /* ViewController.m in Sources */,
+				37E863201A93025F00E899B7 /* CameraViewController.m in Sources */,
 				3731D6D51A96979200CC6A96 /* TakeOrTossViewController.m in Sources */,
+				3731D6DB1A97E09100CC6A96 /* FriendViewController.m in Sources */,
 				37E8631D1A93025F00E899B7 /* AppDelegate.m in Sources */,
 				37E8631A1A93025F00E899B7 /* main.m in Sources */,
+				3731D6DE1A97E19800CC6A96 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
