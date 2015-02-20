@@ -14,8 +14,14 @@
 
 @implementation LoginViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+        NSLog(@"Starting");
+    // In your viewDidLoad method:
+    self.loginView.readPermissions = @[@"public_profile", @"email", @"user_friends"];
+    self.loginView.delegate = self;
+    // Override point for customization after application launch.
     // Do any additional setup after loading the view.
 }
 
@@ -34,20 +40,20 @@
 }
 */
 
-- (BOOL)application:(UIApplication *)application
-didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    // Override point for customization after application launch.
-    [FBLoginView class];
-
-    return YES;
+- (void)loginViewFetchedUserInfo:(FBLoginView *)loginView user:(id<FBGraphUser>)user {
+    [self performSegueWithIdentifier:@"segueToTakeOrToss" sender:self];
 }
 
 -(void)loginViewShowingLoggedInUser:(FBLoginView *)loginView {
-    
-    if (FBSession.activeSession.isOpen) {
-      
-    }
+    NSLog(@"You're logged in");
+    [self performSegueWithIdentifier:@"segueToTakeOrToss" sender:self];
+
 }
+
+-(void)loginViewShowingLoggedOutUser:(FBLoginView *)logoutView {
+    NSLog(@"Logged out");
+}
+
+
 
 @end

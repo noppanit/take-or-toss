@@ -10,6 +10,8 @@
 		3731D6CB1A955CAA00CC6A96 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3731D6CA1A955CAA00CC6A96 /* FacebookSDK.framework */; };
 		3731D6CF1A955FFD00CC6A96 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3731D6CE1A955FFD00CC6A96 /* LoginViewController.m */; };
 		3731D6D21A956D2D00CC6A96 /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3731D6D11A956D2D00CC6A96 /* sample.jpg */; };
+		3731D6D51A96979200CC6A96 /* TakeOrTossViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3731D6D41A96979200CC6A96 /* TakeOrTossViewController.m */; };
+		3731D6D81A96FFB800CC6A96 /* MyCustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3731D6D71A96FFB800CC6A96 /* MyCustomSegue.m */; };
 		37E8631A1A93025F00E899B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E863191A93025F00E899B7 /* main.m */; };
 		37E8631D1A93025F00E899B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E8631C1A93025F00E899B7 /* AppDelegate.m */; };
 		37E863201A93025F00E899B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E8631F1A93025F00E899B7 /* ViewController.m */; };
@@ -34,6 +36,10 @@
 		3731D6CD1A955FFD00CC6A96 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		3731D6CE1A955FFD00CC6A96 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		3731D6D11A956D2D00CC6A96 /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample.jpg; sourceTree = "<group>"; };
+		3731D6D31A96979200CC6A96 /* TakeOrTossViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakeOrTossViewController.h; sourceTree = "<group>"; };
+		3731D6D41A96979200CC6A96 /* TakeOrTossViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakeOrTossViewController.m; sourceTree = "<group>"; };
+		3731D6D61A96FFB800CC6A96 /* MyCustomSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomSegue.h; sourceTree = "<group>"; };
+		3731D6D71A96FFB800CC6A96 /* MyCustomSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomSegue.m; sourceTree = "<group>"; };
 		37E863141A93025F00E899B7 /* TakeOrToss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeOrToss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37E863181A93025F00E899B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37E863191A93025F00E899B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -117,6 +123,10 @@
 				37E863171A93025F00E899B7 /* Supporting Files */,
 				3731D6CD1A955FFD00CC6A96 /* LoginViewController.h */,
 				3731D6CE1A955FFD00CC6A96 /* LoginViewController.m */,
+				3731D6D31A96979200CC6A96 /* TakeOrTossViewController.h */,
+				3731D6D41A96979200CC6A96 /* TakeOrTossViewController.m */,
+				3731D6D61A96FFB800CC6A96 /* MyCustomSegue.h */,
+				3731D6D71A96FFB800CC6A96 /* MyCustomSegue.m */,
 			);
 			path = TakeOrToss;
 			sourceTree = "<group>";
@@ -250,8 +260,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3731D6D81A96FFB800CC6A96 /* MyCustomSegue.m in Sources */,
 				3731D6CF1A955FFD00CC6A96 /* LoginViewController.m in Sources */,
 				37E863201A93025F00E899B7 /* ViewController.m in Sources */,
+				3731D6D51A96979200CC6A96 /* TakeOrTossViewController.m in Sources */,
 				37E8631D1A93025F00E899B7 /* AppDelegate.m in Sources */,
 				37E8631A1A93025F00E899B7 /* main.m in Sources */,
 			);

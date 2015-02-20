@@ -17,22 +17,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="psR-lY-qfe" customClass="FBLoginView">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="psR-lY-qfe" customClass="FBLoginView">
                                 <rect key="frame" x="41" y="448" width="238" height="70"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="psR-lY-qfe" firstAttribute="top" secondItem="cIP-f9-pBa" secondAttribute="bottom" constant="384" id="CIY-YS-gVr"/>
                             <constraint firstItem="psR-lY-qfe" firstAttribute="leading" secondItem="TzL-uQ-Zbo" secondAttribute="leadingMargin" constant="25" id="N2h-ys-ffS"/>
                             <constraint firstItem="sGy-h0-OVG" firstAttribute="top" secondItem="psR-lY-qfe" secondAttribute="bottom" constant="50" id="T1s-fY-zZf"/>
                             <constraint firstAttribute="trailingMargin" secondItem="psR-lY-qfe" secondAttribute="trailing" constant="25" id="W1h-Ee-7Eb"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="ZeM-Sj-asf"/>
+                    <connections>
+                        <outlet property="loginView" destination="psR-lY-qfe" id="ISK-No-Fat"/>
+                        <segue destination="o2R-pt-o65" kind="custom" identifier="segueToTakeOrToss" customClass="MyCustomSegue" id="miX-lI-fGW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tzo-iY-ypb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1577" y="-89"/>
+            <point key="canvasLocation" x="4237" y="-89"/>
         </scene>
         <!--Friends-->
         <scene sceneID="X9F-DG-l0k">
@@ -102,7 +108,7 @@
         <!--Take Or Toss-->
         <scene sceneID="BAu-t9-EtG">
             <objects>
-                <viewController title="Take Or Toss" id="o2R-pt-o65" sceneMemberID="viewController">
+                <viewController title="Take Or Toss" id="o2R-pt-o65" customClass="TakeOrTossViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="A7t-6t-A7P"/>
                         <viewControllerLayoutGuide type="bottom" id="zFM-Wj-ldT"/>
@@ -112,15 +118,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uEk-d5-9Yf">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="16" y="37" width="288" height="407"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vb5-ms-PcJ">
+                                <rect key="frame" x="51" y="499" width="32" height="30"/>
+                                <state key="normal" title="Take">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gbm-NA-qM2">
+                                <rect key="frame" x="229" y="499" width="32" height="30"/>
+                                <state key="normal" title="Toss">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="L9V-Bt-6pk"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d1V-1x-fza" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2039" y="-53"/>
+            <point key="canvasLocation" x="4626" y="-89"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
@@ -158,7 +177,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2641" y="138"/>
+            <point key="canvasLocation" x="5325" y="-89"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="pmy-L1-JIC">
